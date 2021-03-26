@@ -2,21 +2,26 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #bccbfd;
+}
 .margin-between{
     margin-right: 20px;
 }
 .edit-color{
     font-size: 20px;
-    color: rgb(34, 216, 140);
+    color: #011627;
 }
 .del-color{
     font-size: 20px;
     color: rgb(201, 7, 7);
 }
 button{
-    background-color: rgb(87, 180, 235);
+    background-color: #f4acb7;
+    outline: none;
     font-weight: 700;
-    box-shadow: 0px 0px 5px #ccc;
+    border: none;
+    box-shadow: 0px 0px 5px black;
 }
 button:hover{
     transform: scale(1.08);
@@ -28,4 +33,11 @@ input:focus{
     background-color: rgb(241, 238, 238);
     outline: none;
     border: 1px solid rgb(90, 87, 87);
+}
+.font-style{
+    font-weight: 700;
+    /* border: 1px solid #ccc; */
+}
+#area{
+    border: 1px solid #ccc;
 }
