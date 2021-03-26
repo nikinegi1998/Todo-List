@@ -11,24 +11,27 @@
 </head>
 <body>
     
-    <header class="mt-5">
-        <div class="container text-center">
-            <h1>Todo List</h1>
-        </div>
-    </header>
-
-    <section class="mt-5">
-        <div class="container pt-5 text-center">
-            <input type="text" name="input" class="p-1 px-2 w-50" id="input" placeholder="Add New Item">
-            <button class="mx-4 p-1 px-2 border rounded" id="add-btn">Add</button>
-        </div>
-    </section>
-  
-    <main class="w-75 p-2" style="margin:30px auto;">
-        <div class="container w-75">
-            <ol class="p-2" id="list"></ol>
-        </div>
-    </main>
+    <div class="todo container w-50">
+        <header class="mt-5">
+            <div class="container">
+                <h2 class="pt-4">Todo List</h2>
+            </div>
+        </header>
+    
+        <section class="mt-5">
+            <div class="container text-center">
+                <input type="text" name="input" class="p-1 px-2 w-50" id="input" placeholder=" Add New Task">
+                <i class="fas fa-plus-circle mx-3 p-1 px-2" id="add-btn"></i>
+            </div>
+        </section>
+      
+        <main class="w-100 p-2" style="margin:30px auto;">
+            <div class="container w-75">
+                <ol class="p-1" id="list"></ol>
+            </div>
+        </main>
+    </div>
+    
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>

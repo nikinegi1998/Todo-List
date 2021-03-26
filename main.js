@@ -18,10 +18,7 @@ btn.onclick = (e)=>{
     // adding list item
     const li = document.createElement('li');
     li.innerText=v;
-    li.classList.add('p-3');
-    li.classList.add('font-style');
-    const hr = document.createElement('hr');
-
+    
     // creating a new div
     const new_div = document.createElement('div');    
     new_div.classList.add('float-end');
@@ -41,7 +38,6 @@ btn.onclick = (e)=>{
     
     ol_list.append(li);
     li.append(new_div);
-    li.append(hr);
     new_div.append(edit_button);
     new_div.append(del_button);
     input.value ="";

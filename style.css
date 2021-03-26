@@ -1,43 +1,55 @@
 *{
     margin: 0;
     padding: 0;
+    color: #fff;
 }
 body{
-    background-color: #bccbfd;
+    width: 100%;
+    height: 93vh;
+    background-image: linear-gradient(62deg, rgba(1, 95, 183, 0.9732216701223994) 20%, rgba(255, 122, 151, 0.5) 10%),linear-gradient(44deg, rgba(0, 43, 99, 0.07922090238615942) 39%, rgba(242, 140, 143, 0.5) 18%),linear-gradient(118deg, rgba(84, 202, 242, 0.03152997265339608) 40%, rgba(247, 155, 187, 0.5) 54%),linear-gradient(58deg, rgba(90, 90, 237, 0.16144443572260592) 83%, rgba(249, 156, 142, 0.5) 23%); background-blend-mode: normal,lighten,multiply,hard-light;
+    
 }
+.todo{
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px #000;
+    background-color: #0f1122;
+}
+
 .margin-between{
     margin-right: 20px;
 }
 .edit-color{
     font-size: 20px;
-    color: #011627;
+    /* color: #011627; */
+    color: rgb(165, 163, 163);
 }
 .del-color{
     font-size: 20px;
-    color: rgb(201, 7, 7);
-}
-button{
-    background-color: #f4acb7;
-    outline: none;
-    font-weight: 700;
-    border: none;
-    box-shadow: 0px 0px 5px black;
-}
-button:hover{
-    transform: scale(1.08);
+    color: rgb(236, 74, 74);
 }
 i{
+    color: #ee9ca7;
     cursor: pointer;
+    font-size: 25px;
+}
+input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+    border-bottom: 1px solid #ccc;
+    
 }
 input:focus{
-    background-color: rgb(241, 238, 238);
-    outline: none;
-    border: 1px solid rgb(90, 87, 87);
-}
-.font-style{
-    font-weight: 700;
-    /* border: 1px solid #ccc; */
+    opacity: 0.8;  
 }
 #area{
     border: 1px solid #ccc;
+}
+ol li{
+    margin-bottom: 5px;
+    border-radius: 15px;
+    padding: 8px 12px;
+    background-color: rgb(38, 38, 77);
+    list-style: none;
 }
