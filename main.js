@@ -40,8 +40,8 @@ btn.onclick = (e)=>{
     li.append(new_div);
     new_div.append(edit_button);
     new_div.append(del_button);
-    input.value ="";
-
+    input.value ="";   
+    
     // delete button functionality
     del_button.onclick = (e)=>{
         // console.log(li);
@@ -52,6 +52,8 @@ btn.onclick = (e)=>{
     edit_button.onclick = (e)=>{
         input.value = li.innerText;
         const tmp = input.value;
+        li.remove();
     }
-    }   
 }
+}
+
