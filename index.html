@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <div class="todo container w-50">
+    <div class="todo container-fluid">
         <header class="mt-5">
             <div class="container">
                 <h2 class="pt-4">Todo List</h2>
@@ -20,14 +20,18 @@
     
         <section class="mt-5">
             <div class="container text-center">
-                <input type="text" name="input" class="p-1 px-2 w-50" id="input" placeholder=" Add New Task">
-                <i class="fas fa-plus-circle mx-3 p-1 px-2" id="add-btn"></i>
+                <div class="row mx-auto">
+                    <input type="text" name="input" class="col-lg-10 col-md-6 col-sm-6 col-6 p-1 px-2 w-75" id="input" placeholder=" Add New Task">
+                    <i class="fas fa-plus-circle p-1 px-3 col-lg-2 col-md-1 col-sm-2 col-2" id="add-btn"></i>
+                </div>                
             </div>
         </section>
       
         <main class="w-100 p-2" style="margin:30px auto;">
             <div class="container w-75">
-                <ol class="p-1" id="list"></ol>
+                <div class="row">                    
+                    <ol class="p-1 col-lg-12 text-break" id="list"></ol>
+                </div>
             </div>
         </main>
     </div>

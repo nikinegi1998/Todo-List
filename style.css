@@ -13,6 +13,7 @@ body{
     border-radius: 12px;
     box-shadow: 0px 0px 5px #000;
     background-color: #0f1122;
+    width: 40%;
 }
 
 .margin-between{
@@ -52,4 +53,36 @@ ol li{
     padding: 8px 12px;
     background-color: rgb(38, 38, 77);
     list-style: none;
+}
+
+@media screen and (max-width: 1200px){
+    ol li, .edit-color, .del-color{
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 893px){
+    h2{
+        font-size: 20px;
+    }
+    .todo{
+        width: 75%;  
+    }
+    ol li{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 326px){
+    h2{
+        font-size: 16px;
+    }
+    .edit-color, .del-color{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width: 568px){
+    ol li{
+        font-size: 12px;
+    }
 }
